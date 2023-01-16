@@ -1,0 +1,62 @@
+.contentContainer {
+    max-width:1120px;
+    margin: 0 0 0 1rem;
+    padding: 0 0 0 0.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero {
+    max-width:370px;
+
+    > span{
+
+        font-size: 40px;
+        font-weight: bold;
+
+    }
+
+    h1 {
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+        font-weight: 900;
+        margin-top: 2.5rem;
+
+        span {
+            color: var(--cyan-500);
+
+        }
+    }
+    a{
+        font-size: 1.8rem;
+        line-height: 2.25rem;
+        margin-top: 1.5rem;
+        font-weight: 700;
+
+        span {
+            color: var(--cyan-500);
+            font-weight: bold;
+        }
+    }
+    p{
+        padding: 1rem 0;
+        width: 300px;
+    }
+    button {
+        display: flex;
+        border:none;
+        width:11rem;
+        height:3rem;
+        margin:1rem 0 0 0;
+
+        align-items: center;
+        justify-content: center;
+
+        background:var(--red-500);
+        color: var(--white);
+        font-weight: 700;
+    }
+}
